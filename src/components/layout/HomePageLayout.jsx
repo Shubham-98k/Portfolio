@@ -7,26 +7,26 @@ import avatarImg from "../../assets/pf.png";
 const MY_PROJECTS = [
   {
     id: 1,
-    title: "MetaWiper",
-    tagline: "Privacy-focused image tool",
-    description: "An advanced metadata extraction and stripping utility built to securely sanitize image payloads prior to storage optimization.",
-    tech: ["React", "TypeScript", "Tailwind CSS"],
+    title: "task-management-system",
+    tagline: "for the teams",
+    description: "Task management app for the teams ",
+    tech: ["React", "Node.js", "Tailwind CSS"],
     media: "https://unsplash.com"
   },
   {
     id: 2,
-    title: "Stockic",
+    title: "LRU Cache",
     tagline: "High-throughput data engine",
-    description: "A news streaming layout focusing on parsing complex telemetry infrastructure and optimizing real-time high-density visual grids.",
-    tech: ["Next.js", "Go", "Redis", "PostgreSQL"],
+    description: "Implemented LRU cache using hashmap and linked list.",
+    tech: ["Javascript", "Node.js"],
     media: "https://unsplash.com"
   },
   {
     id: 3,
-    title: "NeuraLeap",
-    tagline: "Scalable profile analytics pipeline",
-    description: "Data orchestration engines capable of executing structural processing over massive vector data pools with real-time feedback loops.",
-    tech: ["Python", "Node.js", "FastAPI", "MongoDB"],
+    title: "Adoptail",
+    tagline: "Pet adoption and rehome ",
+    description: "App built with php.",
+    tech: ["PHP", "Javascript", "CSS", "HTML"],
     media: "https://unsplash.com"
   }
 ];
