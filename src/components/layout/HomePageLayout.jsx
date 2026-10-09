@@ -7,7 +7,7 @@ import avatarImg from "../../assets/pf.png";
 const MY_PROJECTS = [
   {
     id: 1,
-    title: "task-management-system",
+    title: "TeamTask",
     tagline: "for the teams",
     description: "Task management app for the teams ",
     tech: ["React", "Node.js", "Tailwind CSS"],
