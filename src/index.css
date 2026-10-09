@@ -1,1 +1,26 @@
 @import "tailwindcss";
+
+/* 👈 Tell Tailwind v4 to look for the .dark class on the <html> tag */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer utilities {
+  /* Infinite horizontal scroll animation */
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  .animate-marquee {
+    animation: marquee 25s linear infinite;
+  }
+  
+  /* Adds smooth fade masking on the edges of the banner window */
+  .mask-gradient {
+    mask-image: linear-gradient(to right, transparent, #000 10%, #000 90%, transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, #000 10%, #000 90%, transparent);
+  }
+}
